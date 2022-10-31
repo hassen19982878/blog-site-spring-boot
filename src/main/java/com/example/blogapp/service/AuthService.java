@@ -44,4 +44,7 @@ public class AuthService {
                 (org.springframework.security.core.userdetails.User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         return Optional.of(user);
     }
+    public boolean build(){
+        return true;
+    }
 }
